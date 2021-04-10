@@ -44,6 +44,9 @@ else:
 ```
 
 ### Boolsk logikk
+Alle boolske operatorer evaluerer til enten True eller False (sann eller usann).
+
+#### Sammenlignings-operatorer
 | Operator       | Python        |
 | :------------  |:-------------:|
 | Er lik          | ==      |
@@ -52,6 +55,24 @@ else:
 | Større enn       | >      |
 | Mindre enn eller lik         | <=    |
 | Større enn eller lik | >= |
+
+#### Boolske operatorer
+Man kan i tillegg kombinere flere operatorer sammen ved bruk av operatorene and, or og not.
+```python
+True and True # True
+True and False # False
+False and True # False
+False and False # False
+
+True or True # True
+True or False # True
+False or True # True
+False or False # False
+
+not True # False
+not False # True
+```
+
 
 ### While løkker
 ```python
