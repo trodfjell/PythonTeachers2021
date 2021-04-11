@@ -1,13 +1,15 @@
-# PythonTeachers2021
+### PythonTeachers2021
 Delt kode i forbindelse med kurs i programmering for lærere gjennomført våren 2021.
+
+I timene bruker vi [programiz](https://www.programiz.com/python-programming/online-compiler/) for å kjøre python kode.
 
 [Jukselapp](Jukselapp.md) inneholder det meste av syntax som vi går igjennom i dette kurset.
 
-Mappen [Introduksjon](Introduksjon) inneholder
-Mappen [Matematikk](Matematikk) inneholder en rekke eksempler på 
-Mappen [Naturfag](Naturfag) inneholder en rekke eksempler på løsninger
+- Mappen [Introduksjon](Introduksjon) inneholder
+- Mappen [Matematikk](Matematikk) inneholder en rekke eksempler på 
+- Mappen [Naturfag](Naturfag) inneholder en rekke eksempler på løsninger
 
-# Ekstra ressurser
+### Ekstra ressurser
 [Pythontutor.com](http://pythontutor.com/) nettside som kan brukes for å få visualisert python kode steg for steg for demonstrasjoner.
 
 
