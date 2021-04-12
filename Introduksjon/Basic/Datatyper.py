@@ -7,9 +7,17 @@
 1
 10
 
-# Float brukes for å representere desimaltall (flyttall). I Python er punktum skilletegnet for desimaler.
+# Float brukes for å representere flyttall. I Python er punktum skilletegnet for desimaler.
 16.5
 10.0
+
+# Vær obs på at flyttall ikke alltid er helt presis når det kommer til utregning på desimaler. 
+# Eksempelvis hvis man summerer sammen 0.1 + 0.2 så får man i python (og de fleste andre programmeringsspråk) svaret: 0.30000000000000004
+# Dette kan leses mer om her: https://no.wikipedia.org/wiki/Flyttall
+
+# Alternativ til flyttall er å bruke Decimal typen hvis man har behov for å ha helt korrekt presisjon.
+from decimal import *
+Decimal('0.1') + Decimal('0.2') # => Decimal(0.3)
 
 # Det er også mulig å konvertere datatyper mellom hverandre
 
