@@ -11,7 +11,7 @@ def f1(x):
 def f2(x):
     return 3 * x + 150
 
-x = np.linspace(0, 30, 60) # Hent 100 verdier mellom -0.5 og 3.0
+x = np.linspace(0, 30, 60) # Hent 60 verdier mellom 0 og 30
 
 y1 = f1(x) # evaluer f1(x) på disse 60 ulike verdiene
 plt.plot(x, y1) # plot den inn i grafen
