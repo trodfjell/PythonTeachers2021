@@ -15,6 +15,7 @@ Noen av programmene i Matematikk mappen bruker eksterne bibliotek som kan instal
 Bibliotekene som er brukt er:
 - [Numpy](https://numpy.org/) som gir mange matematiske operasjoner.
 - [Matplotlib](https://matplotlib.org/) som kan brukes for visualisering av grafer m.m.
+
 For å kunne installere Numpy og Matplotlib kreves det at man bruker [pip](https://pypi.org/project/pip/) som er et verktøy for å installere python bibliotek. Det ligger en guide på dette her: [Installering av pip](pip.md)
 
 
