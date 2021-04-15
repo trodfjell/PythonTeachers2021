@@ -11,6 +11,13 @@ De som ikke har mulighet til å installere python på sin lokale maskin, kan bru
 - Mappen [Matematikk](Matematikk) inneholder eksempler på matematiske problemer som kan løses ved hjelp av python. (Kommer flere eksempler her...)
 - (KOMMER) Mappen [Naturfag](Naturfag) inneholder eksempler på naturfagsproblemer som kan løses ved hjelp av python.
 
+Noen av programmene i Matematikk mappen bruker eksterne bibliotek som kan installeres til python. 
+Bibliotekene som er brukt er:
+- [Numpy](https://numpy.org/) som gir mange matematiske operasjoner.
+- [Matplotlib](https://matplotlib.org/) som kan brukes for visualisering av grafer m.m.
+For å kunne installere Numpy og Matplotlib kreves det at man bruker [pip](https://pypi.org/project/pip/) som er et verktøy for å installere python bibliotek. Det ligger en guide på dette her: [Installering av pip](pip.md)
+
+
 ### Ekstra ressurser
 [Pythontutor.com](http://pythontutor.com/) nettside som kan brukes for å få visualisert python kode steg for steg for demonstrasjoner.
 

@@ -4,12 +4,12 @@
 
 print('Hei')
 
-print('Hva er ditt navn?')
+print('Hva er ditt navn?') # Be brukeren om å skrive inn navnet sitt
 navn = input()
 print('Hyggelig å hilse på deg, ' + navn)
 print('Lengden på ditt navn er:')
 print(len(navn))
 
-print('Hvor gammel er du?')
+print('Hvor gammel er du?') # Be brukeren å skrive inn alderen sin
 alder = input()
 print('Du blir ' + str(int(alder) + 1) + ' år på din neste bursdag.')
